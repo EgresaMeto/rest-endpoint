@@ -1,7 +1,7 @@
 import sqlite3 from 'sqlite3'
 
 // Connect to the database file, or create it if it doesn't exist
-const database = new sqlite3.Database('starwarss.db')
+const database = new sqlite3.Database('starwars.db')
 
 // Create the persons table if it doesn't exist
 database.run(
